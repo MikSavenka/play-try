@@ -119,7 +119,7 @@
       <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="46" selection-start="121" selection-end="121" vertical-scroll-proportion="0.15711646">
+            <state line="5" column="46" selection-start="121" selection-end="121" vertical-scroll-proportion="0.15769945">
               <folding />
             </state>
           </provider>
@@ -211,6 +211,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="company-review" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company-review" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company-review" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -541,7 +551,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="46" selection-start="121" selection-end="121" vertical-scroll-proportion="0.15711646">
+        <state line="5" column="46" selection-start="121" selection-end="121" vertical-scroll-proportion="0.15769945">
           <folding />
         </state>
       </provider>
