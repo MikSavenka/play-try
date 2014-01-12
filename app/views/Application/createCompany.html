@@ -1,0 +1,15 @@
+#{extends 'main.html' /}
+#{set title:'Create company' /}
+
+#{ifErrors}
+<h1>Errors Encountered</h1>
+<p>There were validation errors encountered</p>
+#{/ifErrors}
+
+<form action="@{Application.saveCompany()}" method="POST">
+<div>
+    Name: <input type="text" name="company.name"  />
+    <span class="error">#{error 'company.name' /}</span>
+</div>
+<div> <input type="submit" value="Create company" /> </div>
+</form>

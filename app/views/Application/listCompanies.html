@@ -1,0 +1,33 @@
+#{extends 'main.html' /}
+#{set title:'All companies' /}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#companies').dataTable({
+            "bJQueryUI": true,
+            "sPaginationType": "full_numbers"
+        });
+    });
+</script>
+
+<a href="@{Application.createCompany()}">Create Company</a>
+
+<table id="companies">
+    <thead>
+    <tr>
+        <th>Company name</th>
+        <th>Rating</th>
+    </tr>
+    </thead>
+    <tbody>
+    #{list items:companies, as :'item'}
+    <tr>
+        <td>
+            <a href="@{Application.showCompany(item.id)}">${item.name}</a>
+        </td>
+        <td></td>
+    </tr>
+    #{/list}
+    </tbody>
+</table>
+
